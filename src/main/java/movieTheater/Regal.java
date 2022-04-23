@@ -21,7 +21,7 @@ public class  Regal extends Theater implements MovieService  {
 
     @Override
     public void welcomeCustomers() {
-        System.out.println("welcome to Regal movie theater!".toUpperCase());
+        System.out.println("welcome to Regal movie theater!!!".toUpperCase());
 
 
     }
