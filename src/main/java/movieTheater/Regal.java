@@ -1,5 +1,7 @@
 package movieTheater;
 
+import java.util.Locale;
+
 public class  Regal extends Theater implements MovieService  {
 
     private String secondFloor;
@@ -19,6 +21,8 @@ public class  Regal extends Theater implements MovieService  {
 
     @Override
     public void welcomeCustomers() {
+        System.out.println("welcome to Regal movie theater!".toUpperCase());
+
 
     }
 
